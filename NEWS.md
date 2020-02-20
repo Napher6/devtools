@@ -1,4 +1,9 @@
+# devtools (development version)
+
 # devtools 2.2.2
+
+* `install_dev_deps()` now passes formal args onto `remotes::install_deps()`
+(@t-gibson, #2166)
 
 * `spell_check()` now checks if `spelling` is installed and prompts users to 
   install it if not (@mikemahoney218, #2172)
